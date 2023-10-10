@@ -505,7 +505,7 @@ const client = new Client({
     GatewayIntentBits.AutoModerationExecution
   ],
 });
-const TOKEN = 'MTE1MTQ1OTQyMzU1MDcwNTY5NA.GPjdIv.mmG7YWExlo_zb0_Yq25X2XF5Y7a3VeOHm_oB4U';
+const TOKEN = 'MTE1MTQ1OTQyMzU1MDcwNTY5NA.GyzlSD.3n8hRLuwjUSKk6u7YvQg2RBDRP-qBhYILSN3sg';
 const pingRegex = /<@(\d+)>/g;;
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
